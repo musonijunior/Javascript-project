@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive JavaScript Mini Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>My Interactive JavaScript Website</h1>
+    <button id="themeBtn">Switch Theme</button>
+</header>
+
+<main>
+
+    <section class="card">
+        <h2>Sign Up Form</h2>
+        <form id="signupForm">
+            <label>Name:</label>
+            <input type="text" id="nameInput">
+
+            <label>Email:</label>
+            <input type="text" id="emailInput">
+
+            <label>Password:</label>
+            <input type="password" id="passwordInput">
+
+            <button type="submit">Submit</button>
+        </form>
+        <p id="formMessage"></p>
+    </section>
+
+    <section class="card">
+        <h2>Change Image on Click</h2>
+        <img id="imageBox" src="https://via.placeholder.com/250" alt="Placeholder Image">
+
+        <br><br>
+        <button id="changeImgBtn">Change Image</button>
+    </section>
+
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
